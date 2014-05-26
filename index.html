@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en" ng-app="formDemo">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.0-beta.8/angular.min.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+  <div ng-controller="LocationFormCtrl">
+    <h2>Editors</h2>
+    <div class="field">
+        <strong>State:</strong>
+        <div click-to-edit="location.state"></div>
+    </div>
+    <div class="field">
+        <strong>City:</strong>
+        <div click-to-edit="location.city"></div>
+    </div>
+    <div class="field">
+        <strong>Neighbourhood:</strong>
+        <div click-to-edit="location.neighbourhood"></div>
+    </div>
+</div>
+</body>
+</html>
